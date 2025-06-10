@@ -1,5 +1,5 @@
 export interface PackageData {
-  /** Package name as in npm, for example, `mantine-extension-template` */
+  /** Package name as in npm, for example, `mantine-query-select` */
   packageName: string;
 
   /** Description of the package, displayed below the title in documentation */
@@ -25,15 +25,14 @@ export interface PackageData {
 }
 
 export const PACKAGE_DATA: PackageData = {
-  packageName: 'mantine-extension-template',
+  packageName: 'mantine-query-select',
   packageDescription:
     'A template for mantine extensions, includes full setup for package development and documentation',
-  mdxFileUrl:
-    'https://github.com/rtivital/mantine-extension-template/blob/master/docs/pages/index.mdx',
-  repositoryUrl: 'https://github.com/rtivital/mantine-extension-template',
-  licenseUrl: 'https://github.com/rtivital/mantine-extension-template/blob/master/LICENSE',
+  mdxFileUrl: 'https://github.com/icflorescu/mantine-query-select/blob/master/docs/pages/index.mdx',
+  repositoryUrl: 'https://github.com/icflorescu/mantine-query-select',
+  licenseUrl: 'https://github.com/icflorescu/mantine-query-select/blob/master/LICENSE',
   author: {
-    name: 'Vitaly Rtishchev',
-    githubUsername: 'rtivital',
+    name: 'Ionut-Cristian Florescu',
+    githubUsername: 'icflorescu',
   },
 };
